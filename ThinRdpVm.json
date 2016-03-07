@@ -34,9 +34,9 @@
 	"variables": {
 		"vmName": "thinrdpvm",
 		"vmSize": "Standard_D2",
-		"imagePublisher": "MicrosoftWindowsServer",
-		"imageOffer": "WindowsServer",
-		"imageSKU": "2012-R2-Datacenter",
+		"imagePublisher": "MicrosoftVisualStudio",
+		"imageOffer": "VisualStudio",
+		"imageSKU": "VS-2015-Ent-AzureSDK-2.8-WS2012R2.2",
 		"storageAccountType": "Standard_LRS",
 		"virtualNetworkName": "vnet",
 		"subnetName": "subnet",
