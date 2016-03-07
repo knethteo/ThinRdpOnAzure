@@ -42,7 +42,7 @@
 		"subnetName": "subnet",
 		"nicName": "nic",
 		"loadBalancerName": "loadbalancer",
-		"publicIpName": "publicip",
+		"publicIpName": "thinpublicip",
 		"vnetID": "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
 		"subnetRef": "[concat(variables('vnetID'),'/subnets/',variables ('subnetName'))]",
 		"publicIPAddressID": "[resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPName'))]",
